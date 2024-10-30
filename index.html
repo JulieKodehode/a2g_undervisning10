@@ -5,19 +5,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
     <script type="module" src="script.js"></script>
   </head>
   <body>
     <header>
+      <!-- Navigation text functions as navigation links to help navigate the page using the "Bookmarks"-teqhnique -->
       <nav>
         <ul>
-          <li>x</li>
-          <li>x</li>
-          <li>x</li>
+          <a href="#section1">
+            <li>Bryggen</li>
+          </a>
+
+          <a href="#section2">
+            <li>Fløyen</li>
+          </a>
+          
+          <a href="#section3">
+            <li>Ulrikken</li>
+          </a>
         </ul>
       </nav>
     </header>
-    <main></main>
+
+    <main>
+      <!-- First section is displayed text to the left and image to the right -->
+      <section id="section1" class="firstSection">
+        <div class="sectionText">
+          <h1>Kom til Bryggen</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, ipsam.</p>
+        </div>
+        <img class="sectionImg" src="image/image2.webp" alt="Placeholder bilde">
+      </section>
+      
+      <!-- Second section is displayed image to the left and text to the right -->
+      <section id="section2" class="secondSection">
+        <img class="sectionImg" src="image/image4.jpg" alt="Placeholder bilde">
+        <div class="sectionText">
+          <h2>Se utsikten fra Fløyen</h2>
+          <ol>
+            <li>Nummer 1</li>
+            <li>Nummer 2</li>
+            <li>Nummer 3</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Third section is displayed text to the left and image to the right -->
+      <section id="section3" class="thirdSection">
+        <div class="sectionText">
+          <h2>Ta skylift til Ulrikken</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, numquam.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, culpa!</p>
+        </div>
+        <img class="sectionImg" src="image/image5.jpeg" alt="Placeholder bilde">
+      </section>
+    </main>
     <footer>
       <h3>Laget av Julie</h3>
     </footer>

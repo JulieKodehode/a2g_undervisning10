@@ -5,10 +5,14 @@
 body {
   /* property:value; is a CSS Rule */
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
   border-bottom: 5px solid black;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 ul {
@@ -21,8 +25,34 @@ ul {
   padding: 0 10px;
 }
 
-main {
+section {
   height: 100vh;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionText {
+  width: 50%;
+}
+
+.sectionImg {
+  width: 50%;
 }
 
 footer {
